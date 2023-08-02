@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using HRIS.Application.DTOs;
 using HRIS.Application.DTOs.Common;
+using HRIS.Application.DTOs.LeaveRequest;
 using HRIS.Domain;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,7 @@ namespace HRIS.Application.Profiles
         public MappingProfile()
         {
             CreateMap<LeaveRequest, LeaveRequestDto>().ReverseMap();
+            CreateMap<LeaveRequest, LeaveRequestListDto>().ReverseMap();
             CreateMap<LeaveAllocation, LeaveAllocationDto>().ReverseMap();
             CreateMap<LeaveType, LeaveTypeDto>().ReverseMap();
         }

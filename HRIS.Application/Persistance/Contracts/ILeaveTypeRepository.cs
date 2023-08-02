@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace HRIS.Application.Persistance.Contracts
 {
-    public interface ILeaveTypeRepository: IGenericRepository<LeaveType>
+    public interface ILeaveTypeRepository : IGenericRepository<LeaveType>
     {
+        object GetLeaveTypeById(int id);
     }
 }

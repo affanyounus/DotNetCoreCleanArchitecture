@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HRIS.Application.DTOs.Common.BaseDto" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTOs\Common\BaseDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HRIS.Application.DTOs.Common.LeaveAllocationDto" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>DTOs\LeaveAllocationDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HRIS.Application.DTOs.Common.LeaveTypeDto" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>DTOs\LeaveTypeDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HRIS.Application.DTOs.LeaveRequestDto" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAKACAAAAAAAAAAABAgAAAACAAAAAAAAEAAAQA=</HashCode>
+      <FileName>DTOs\LeaveRequest\LeaveRequestDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HRIS.Application.DTOs.LeaveRequest.LeaveRequestListDto" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIACAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTOs\LeaveRequest\LeaveRequestListDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HRIS.Application.Features.LeaveTypes.Handlers.Queries.GetLeaveTypeDetailRequestHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAgAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Features\LeaveTypes\Handlers\Queries\GetLeaveTypeDetailRequestHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HRIS.Application.Features.LeaveTypes.Handlers.Queries.GetLeaveTypeListRequestHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAgAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Features\LeaveTypes\Handlers\Queries\GetLeaveTypeListRequestHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HRIS.Application.Features.LeaveTypes.Requests.Queries.GetLeaveTypeDetailRequest" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Features\LeaveTypes\Requests\Queries\GetLeaveTypeDetailRequest.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HRIS.Application.Features.LeaveTypes.Requests.Queries.GetLeaveTypeListRequest" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Features\LeaveTypes\Requests\Queries\GetLeaveTypeListRequest.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HRIS.Application.Profiles.MappingProfile" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Profiles\MappingProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HRIS.Application.ApplicationServicesRegistration" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationServicesRegistration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HRIS.Application.Class1" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="HRIS.Application.Persistance.Contracts.IGenericRepository&lt;T&gt;" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAABAAAAAAAAAAAEAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Persistance\Contracts\IGenericRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HRIS.Application.Persistance.Contracts.ILeaveAllocationRepository" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistance\Contracts\ILeaveAllocationRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HRIS.Application.Persistance.Contracts.ILeaveRequestRepository" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistance\Contracts\ILeaveRequestRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HRIS.Application.Persistance.Contracts.ILeaveTypeRepository" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistance\Contracts\ILeaveTypeRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

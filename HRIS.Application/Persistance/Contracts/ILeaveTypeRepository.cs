@@ -9,6 +9,6 @@ namespace HRIS.Application.Persistance.Contracts
 {
     public interface ILeaveTypeRepository : IGenericRepository<LeaveType>
     {
-        object GetLeaveTypeById(int id);
+        //object GetLeaveTypeById(int id);
     }
 }

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using HRIS.Application.DTOs;
 using HRIS.Application.DTOs.Common;
+using HRIS.Application.DTOs.LeaveAllocation;
 using HRIS.Application.DTOs.LeaveRequest;
 using HRIS.Domain;
 using System;

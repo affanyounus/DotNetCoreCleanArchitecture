@@ -25,7 +25,7 @@ namespace HRIS.Application.Features.LeaveRequests.Handlers.Queries
         }
         public async Task<LeaveRequestDto> Handle(GetLeaveRequestDetailRequest request, CancellationToken cancellationToken)
         {
-            var leave = await _leaveRequestRepository.Get(request.Id);
+            var leave = await _leaveRequestRepository.GetLeaveRequestWithDetails(request.Id);
 
             return _mapper.Map<LeaveRequestDto>(leave);
         }
